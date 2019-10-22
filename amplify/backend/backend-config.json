@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"timesheetsdf610f7c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

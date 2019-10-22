@@ -1,0 +1,19 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "timesheets-prod-20191020220402-authRole",
+            "UnauthRoleArn": "arn:aws:iam::228660713167:role/timesheets-prod-20191020220402-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::228660713167:role/timesheets-prod-20191020220402-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "timesheets-prod-20191020220402-deployment",
+            "UnauthRoleName": "timesheets-prod-20191020220402-unauthRole",
+            "StackName": "timesheets-prod-20191020220402",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:228660713167:stack/timesheets-prod-20191020220402/78321510-f342-11e9-926d-02e842d24598"
+        },
+        "categories": {
+            "auth": {
+                "timesheetsdf610f7c": {}
+            }
+        }
+    }
+}

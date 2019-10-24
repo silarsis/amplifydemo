@@ -1,6 +1,6 @@
 {
     "identityPoolName": "timesheetsdf610f7c_identitypool_df610f7c",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "timeshdf610f7c",
     "userPoolName": "timesheetsdf610f7c_userpool_df610f7c",
     "autoVerifiedAttributes": [
@@ -44,9 +44,16 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
+    "useDefault": "manual",
     "usernameAttributes": [
         "email"
     ],
-    "dependsOn": []
+    "dependsOn": [],
+    "thirdPartyAuth": false,
+    "triggers": "{}",
+    "hostedUI": false,
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": []
 }
